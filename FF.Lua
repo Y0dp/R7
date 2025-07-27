@@ -49,10 +49,11 @@ local function Stroke(parent, props)
   
   local gradient = Instance.new("UIGradient")
 gradient.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 105, 180)),
-    ColorSequenceKeypoint.new(0.4, Color3.fromRGB(0, 0, 0)),
-    ColorSequenceKeypoint.new(0.6, Color3.fromRGB(255, 20, 147)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 182, 193))
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 128, 192)),
+    ColorSequenceKeypoint.new(0.3, Color3.fromRGB(255, 64, 160)),
+    ColorSequenceKeypoint.new(0.5, Color3.fromRGB(30, 30, 30)),
+    ColorSequenceKeypoint.new(0.7, Color3.fromRGB(255, 20, 147)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 182, 213))
 }
   gradient.Rotation = 0
   gradient.Parent = new
